@@ -145,7 +145,7 @@
     }
     .myImageCover{
         position: relative;
-        top: 3px;
+        top: 20px;
         border: 3px rgba(255, 255, 255, 0.79) solid;
         right: 16px;
 
@@ -170,8 +170,13 @@
         color: yellow;*/
 
     }
+ /*   #welcome{
+        background-image:url("assests/image/photo-1545446968-9baea3c7a4db.png");
 
 
+
+    }
+*/
 
    .rolls{
        margin: auto;
@@ -252,7 +257,7 @@
 
         #welcomeHr{
             position: relative;
-            bottom: 160px;
+            bottom: 10px;
         }
 
 
@@ -278,13 +283,190 @@
             right: 100px;
            /* right: 0;*/
             position: relative;
-            bottom: 50px;
+             top: 120px;
             /* left: 600px; */
             font-size: 33px;
             color: yellow;
             width: fit-content;
 
         }
+
+        /* myPersonalDetails */
+
+        article>dl>dt{
+            color: yellow;
+
+        }
+
+
+        .myPersonalDetails{
+            margin: auto;
+            position: relative;
+            right: 550px;
+            width: fit-content;
+            top: 170px;
+            border: 2px white solid;
+            padding: 25px;
+  }
+
+        article>h3{
+           font-size: 27px;
+        }
+
+
+        #completedItemsDiv1{
+            margin: auto;
+            position: relative;
+            right: 100px;
+            width: fit-content;
+            border: 2px white solid;
+            padding: 70px;
+            top: 10px;
+
+
+        }
+
+        #completedItemsDiv2{
+            margin: auto;
+            position: relative;
+            right: 100px;
+            width: fit-content;
+            border: 2px white solid;
+            padding: 70px;
+            bottom: 360px;
+
+
+        }
+
+        /* About Image */
+
+        #imageAbout >img{
+            margin: auto;
+            position: relative;
+            left: 920px;
+
+            bottom: 610px;
+            border: 5px #030303 solid;
+
+
+        }
+
+        #aboutHr {
+            position: relative;
+            bottom: 320px;
+
+        }
+
+
+
+
+        /* Resume Section */
+
+        #ResumeH2{
+            margin: auto;
+            right: 100px;
+            /* right: 0;*/
+            position: relative;
+            bottom: 120px;
+            /* left: 600px; */
+            font-size: 33px;
+            color: yellow;
+            width: fit-content;
+
+        }
+
+
+        #mySkillsH3{
+            margin: auto;
+            position: relative;
+            right: 630px;
+            width: fit-content;
+            bottom: 50px;
+            padding: 25px;
+            font-size: 20px;
+        }
+
+        .circle{
+            position: relative;
+           border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            padding: 50px 60px;
+            margin-right: 30px;
+            left: 70px;
+            background-color: yellow;
+            display: inline;
+
+        }
+        .smallCircle{
+            position: absolute;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            padding: 20px 20px;
+            margin-right: 30px;
+           right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: #000000;
+            display: inline;
+        }
+
+
+
+        .CodeSkills ul{
+            position: relative;
+
+        }
+        .CodeSkills li{
+
+            position: relative;
+            display: inline-block;
+            padding: 50px;
+            cursor: pointer;
+            top: 90px;
+            right: 675px;
+
+
+        }
+
+        #skillHr{
+            position: relative;
+            right: 280px;
+            top: 90px;
+            width: 730px;
+            height: 0.3px;
+
+        }
+
+
+        #educationH3{
+            margin: auto;
+            position: relative;
+            right: 630px;
+            width: fit-content;
+            top: 150px;
+            padding: 25px;
+            font-size: 20px;
+        }
+
+        .eduEpi{
+            position: relative;
+            display: inline-block;
+            padding: 20px 20px;
+            margin-right: 30px;
+            top: 130px;
+
+
+
+        }
+
+
+
+
+
 
     </style>
 
@@ -388,10 +570,10 @@
 
         <article>
 
-            <h3>I'm Sewmini Premodya</h3>
+<div>
 
             <article class="myPersonalDetails">
-
+                <h3>I'm Sewmini Premodya</h3>
                 <dl>
 
                     <dt>Full Name :</dt>
@@ -414,33 +596,64 @@
                 </dl>
 
             </article>
+</div>
+
 
             <article class="completedItems">
-
+                <div id="completedItemsDiv1">
                 <label>- COMPLETED PROJECTS</label>
+                </div>
+                <div id="completedItemsDiv2">
                 <label>- HAPPY CUSTOMERS</label>
+                </div>
+                <div id="imageAbout">
+                    <img width="380" src="assests/image/WhatsApp Image 2023-05-08 at 23.26.06.jpg" alt="About img"/>
+
+                </div>
 
             </article>
+
 
         </article>
 
     </section>
     <hr id="aboutHr">
     <section id="Resume">
-        <h2>Resume</h2>
+        <h2 id="ResumeH2">Resume</h2>
 
-        <h3>MY SKILLS</h3>
+        <h3 id="mySkillsH3">MY SKILLS</h3>
         <article class="CodeSkills">
             <ul>
+                <div class="circle">
+                    <div class="smallCircle"></div>
+                </div>
+                <div class="circle">
+                    <div class="smallCircle"></div>
+                </div>
+                <div class="circle">
+                    <div class="smallCircle"></div>
+                </div>
+               <div class="circle">
+                   <div class="smallCircle"></div>
+               </div>
+                <div class="circle">
+                    <div class="smallCircle"></div>
+                </div>
+
                 <li>Java</li>
                 <li>SQL</li>
                 <li>JavaScript</li>
                 <li>HTML</li>
                 <li>CSS</li>
+
             </ul>
         </article>
+        <hr id="skillHr">
 
-        <h3>EDUCATION</h3>
+
+        <h3  id="educationH3">EDUCATION</h3>
+
+
         <article id="education">
 
             <article class="eduEpi">
