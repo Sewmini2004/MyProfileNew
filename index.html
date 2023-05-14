@@ -8,6 +8,12 @@
 
     <script src="https://kit.fontawesome.com/cc74b92efe.js" crossorigin="anonymous"></script>
     <link  rel="stylesheet" href="fontwosem/css/all.min.css">
+    <link rel="stylesheet" href="style/preloder.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Sewmini Premodya Ruphasinghe</title>
     <style>
 
@@ -19,6 +25,7 @@
             color: white;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             font-size: 16px;
+
         }
 
 
@@ -146,31 +153,34 @@
         }
         .myImageCover{
             position: relative;
-            top: 20px;
+            top: 140px;
             border: 3px rgba(255, 255, 255, 0.79) solid;
             right: 16px;
 
+            box-shadow: rgba(146, 139, 139, 0.99) 0px 4px 16px, rgba(146, 139, 139, 0.99) 0px 8px 32px;
         }
 
 
         /*  Welcome tag  ======================================*/
-        section>h1{
+      /*  section>h1{
 
             margin: auto;
             right: 0;
             position: relative;
             top: 200px;
-            /* left: 600px; */
+            !* left: 600px; *!
             font-size: 33px;
             color: yellow;
             width: fit-content;
-            /* position: relative;
+            !* position: relative;
              top: 200px;
              left: 600px;
              font-size: 33px;
-             color: yellow;*/
+             color: yellow;*!
 
         }
+*/
+
         /*   #welcome{
                background-image:url("assests/image/photo-1545446968-9baea3c7a4db.png");
 
@@ -179,28 +189,92 @@
            }
        */
 
-        .rolls{
+   .rolls{
+       position: relative;
+       top: 70px;
+   }
+       .animate-charcter
+       {
+           text-transform: uppercase;
+           background-image: linear-gradient(
+                   -225deg,
+                   #99ba26 0%,
+                   #5be0db 15%,
+                   #726e54 29%,
+                   #99ba26 48%,
+                   #5be0db 67%,
+                   #e30e6d 97%,
+                   #eed70d 100%
+
+           );
+           background-size: auto auto;
+           background-clip: border-box;
+           background-size: 200% auto;
+           color: #fff;
+           background-clip: text;
+           text-fill-color: transparent;
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+           animation: textclip 2s linear infinite;
+           display: inline-block;
+           font-size: 33px;
+           top: 100px;
+           position:absolute;
+           left: 550px;
+           width: fit-content;
+           z-index: -3;
+
+
+
+
+       }
+
+       @keyframes textclip {
+         to {
+           background-position: 200% center;
+         }
+       }
+
+
+
+        span{
+            display: inline-block;
+          /*  background-color: #B388FF;*/
             margin: auto;
             width: fit-content;
-            right: 0;
-            position: relative;
-            top: 220px;
-            /* left: 600px; */
-            font-size: 25px;
-
-            /*
-            position: relative;
-            top: 220px;
-            left: 600px;
-            font-size: 25px;*/
         }
 
+        strong{
+            position: relative;
+            color:yellow;
+            background-color: #3d3a3a;
+            font-size: 38px;
+            margin: auto;
+            width: fit-content;
+            top: 220px;
+            left: 670px;
+
+        }
         .introduction{
             position: relative;
-            top: 50px;
-            left: 10px;
-            font-size: 20px;
+            top: 260px;
+            left: 35px;
+            font-size: 24px;
+            margin: auto;
+            width: fit-content;
 
+
+        }
+        #iamDiv{
+            position: relative;
+            font-family: Roboto, sans-serif;
+            font-size: 33px;
+            text-align: center;
+            top: 270px;
+           right: 157px;
+            color: #fff;
+            margin: auto;
+            width: fit-content;
         }
 
 
@@ -307,6 +381,8 @@
             width: fit-content;
             top: 200px;
             border: 2px white solid;
+         /*   box-shadow: rgba(146, 139, 139, 0.99) 0px 4px 16px, rgba(146, 139, 139, 0.99) 0px 8px 32px;*/
+            box-shadow: blue 0px 0px 0px 2px inset, rgb(74, 74, 186) 10px -10px 0px -3px, rgb(27, 44, 131) 10px -10px, rgb(83, 128, 154) 20px -20px 0px -3px, rgb(80, 210, 25) 20px -20px;
             padding: 25px;
         }
 
@@ -321,6 +397,7 @@
             right: 100px;
             width: fit-content;
             border: 2px white solid;
+            box-shadow: rgba(146, 139, 139, 0.99) 0px 4px 16px, rgba(146, 139, 139, 0.99) 0px 8px 32px;
             padding: 70px;
             bottom: 10px;
 
@@ -335,6 +412,7 @@
             border: 2px white solid;
             padding: 70px;
             bottom: 380px;
+            box-shadow: rgba(146, 139, 139, 0.99) 0px 4px 16px, rgba(146, 139, 139, 0.99) 0px 8px 32px;
 
 
         }
@@ -398,7 +476,7 @@
             margin: auto;
             position: relative;
             left: 920px;
-
+            box-shadow: rgba(40, 38, 38, 0.99) 0px 4px 16px, rgba(146, 139, 139, 0.99) 0px 8px 32px;
             bottom: 610px;
             border: 5px #030303 solid;
 
@@ -1087,6 +1165,9 @@
 </head>
 
 <body>
+<div id="pre-loader">
+    <img src="assests/image/Spinner-1s-200px (1).gif">
+</div>
 
 <!---->
 <header id="main-header">
@@ -1094,7 +1175,7 @@
     <div class="container">
 
         <!-- logo -->
-        <figure class="logo">
+        <figure class="logo" data-aos="flip-left">
             <img class="logo" src="assests/image/360_F_381456327_qDnojZK21fII9puyRcFcIbu8nGFoYRTF.jpg"
                  alt="Logo of the website"/>
         </figure>
@@ -1122,12 +1203,23 @@
 <main>
 
     <section id="welcome">
-        <h1>Welcome <br><br>
-            I am Sewmini Premodya</h1>
-
         <article class="rolls">
-            <p>-Web Developer</p>
-            <p>-Graphic Designer</p>
+            <a >
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h3 class="animate-charcter">Welcome <br><br> I am Sewmini Premodya</h3>
+                </div>
+              </div>
+            </div>
+              </a>
+        
+
+
+
+            <p><div id="iamDiv">I am a</div> <span><strong>Developer</strong></span></p>
+          <!--  <p>-Web Developer</p>
+            <p>-Graphic Designer</p>-->
 
             <p class="introduction">
                 I am passionate about building excellent <br>
@@ -1141,7 +1233,7 @@
             <figure >
 
                 <img class="myImageCover" width="400px" src="assests/image/WhatsApp Image 2023-02-15 at 18.36.37.jpeg"
-                     alt="Image of Sewmini Premodya Ruphasinghe"/>
+                     alt="Image of Sewmini Premodya Ruphasinghe" data-aos="zoom-in-up" />
             </figure>
         </div>
 
@@ -1179,15 +1271,16 @@
     <hr id="welcomeHr">
 
     <section id="aboutMe">
+
         <h2 id="About_h2">About Me</h2>
 
 
         <article>
 
-            <div>
+            <div  data-aos="flip-left">
 
-                <article class="myPersonalDetails">
-                    <h3>I'm Sewmini Premodya</h3>
+                <article class="myPersonalDetails" >
+                    <h3 >I'm Sewmini Premodya</h3>
                     <dl>
 
                         <dt>Full Name :</dt>
@@ -1201,7 +1294,7 @@
 
                         <dt>Languages
                         <dt>primary/Secondary :</dt>
-                        </dt>
+
                         <dd>Sinhala/English</dd>
 
                         <dt>Cuntry :</dt>
@@ -1215,21 +1308,21 @@
                     <!--  <a href="assests/image/MyProfile Goal identification.pdf">Go To PDF</a>-->
                     <a href="#" download="CV-Sewmini Premodya">
 
-                        <input type="button" value="Download CV" class="btn">
+                        <input type="button" value="Download CV" class="btn" >
                     </a>
                 </article>
             </div>
 
 
-            <article class="completedItems">
-                <div id="completedItemsDiv1">
+            <article class="completedItems" >
+                <div id="completedItemsDiv1" data-aos="flip-left">
                     <label>- COMPLETED PROJECTS</label>
                 </div>
-                <div id="completedItemsDiv2">
+                <div id="completedItemsDiv2" data-aos="flip-left">
                     <label>- HAPPY CUSTOMERS</label>
                 </div>
                 <div id="imageAbout">
-                    <img width="380" src="assests/image/WhatsApp Image 2023-05-08 at 23.26.06.jpg" alt="About img"/>
+                    <img width="380" src="assests/image/WhatsApp Image 2023-05-08 at 23.26.06.jpg" alt="About img" data-aos="zoom-in-up"/>
 
                 </div>
 
@@ -1457,5 +1550,39 @@
     </footer>
 
 </main>
+<!--eek neweid nned nette moko ne manika me aos kyl ekk hpp owne ai dnnwd ark enne ntte jquery nthi ns manika c iitn pana mn ee wele baluwne tibbne enm neti wennethi ;;; mem krmu js wlim run krmu suttk manika-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="lib/jQuary/jquery-3.6.4.min.js"></script>
+<script>
+
+    AOS.init();
+
+    $().ready(() =>{
+        console.log("Loaded")
+        setTimeout(() =>{
+        $('#pre-loader').css("display","none");
+
+    },300)
+    });
+
+
+
+    var arr = ["Developer", "Graphic Designer" ];
+    var i = 0;
+
+    function changeText(){
+        if (i != arr.length){
+            $("strong").text(arr[i]);
+            i++;}
+        else {
+            i=0;
+            $("strong").text(arr[i])}};
+
+    var t = setInterval(changeText, 700);
+
+
+
+
+</script>
 </body>
 </html>
