@@ -6,5 +6,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="aos" level="application" />
+    <orderEntry type="library" name="animate.css" level="application" />
+    <orderEntry type="library" name="typed.js" level="application" />
   </component>
 </module>
